@@ -1,0 +1,22 @@
+{
+  "name": "mad9135-f19-h3-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "robot.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tibu0004/mad9135-f19-h3-jest.git"
+  },
+  "author": "Joao Guilherme Nabosne (tibu0004)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tibu0004/mad9135-f19-h3-jest/issues"
+  },
+  "homepage": "https://github.com/tibu0004/mad9135-f19-h3-jest#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
