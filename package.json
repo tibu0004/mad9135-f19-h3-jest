@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tibu0004/mad9135-f19-h3-jest#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2"
   }
 }

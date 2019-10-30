@@ -28,7 +28,7 @@ describe('Robot module', () => {
 describe('Validate report values', () => {
     // Create this variable after checking that type is object.
     const report = result[1]; 
-    console.log(report.x);
+    console.log(report.facing);
     
     // 3. Test that report contains the properties: action, x, y, and facing.
     test('Test that report contains the properties: action, x, y, and facing', () => {
@@ -48,11 +48,9 @@ describe('Validate report values', () => {
     });
 
         // 6. Test that report.facing is one of: NORTH, SOUTH, EAST, or WEST.
-    test('Test that report.y is a number between 0 and 5', () => {
-      //expect(report.facing).toContain('NORTH','SOUTH','EAST','WEST');
-      expect(robot.cardinals).toContain(report.facing);
-    
-      
+    test('Test that report.facing is one of: NORTH, SOUTH, EAST, or WEST', () => {
+      expect(['SOUTH','EAST','NORTH','WEST']).toContain(report.facing);
+     
     });
 
     })
